@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/stylef.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div style="color: white;" class="logo"><h3 style="color: white;">Rolando <span class="high">Abellon </span></span></h3></div>
+      <div>
+        <ul style="height: 10vh;" class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#Skill">Skill</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Rolando Abellon</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#languages" onclick="toggleMenu()">Languages</a></li>
+          <li><a href="#Skill" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/reals.jpg" alt="Rolando Abellon profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Rolando Abellon</h1>
+        <p class="section__text__p2"> A Student Programmer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Me
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Termux-noob24'"
+          />
+          <img
+            src="./assets/225129.png"
+            alt="My Facebook profile"
+            class="icon"
+            onclick="location.href='https://web.facebook.com/profile.php?id=100084974932517'"
+          />
+          <img
+            src="./assets/insta.png"
+            alt="My Instagram"
+            class="icon"
+            onclick="location.href='https://instagram.com/'"
+          />
+
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/profile.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-details-container">
+            <div class="text-container">
+              <p><b>Motivational Quote:</b>"The secret to success is to know who to blame for your failures. Hint: It's not you."</p>
+            </div>
+            <br>
+          <div class="text-container">
+            <p><b>CAREER OBJECTIVE:</b> Para magka pera pambili ng BMW R 1250 GS - 1254CC AIR-COOLED, TWIN CYLINDER, DOHC, BOXER ENGINE, 136PS @ 7750RPM.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="personal">
+            <h2 class="experience-sub-title project-title"></h2>
+              <div class="details-container " style="text-align: left; font-size: 20px;">
+                <h3  style="color: black; text-align: center;">Personal Information</h3>
+                <br>
+                <table>
+                  <tr><th><b>BirthDate:</b></th><th> The International day of Awesomeness</th></tr>
+                  <tr><th><b>Age:</b></th><th> Age is just a number, and mine is unlisted.</th></tr>
+                  <tr><th><b>Sex:</b></th><th> No-Experience</th></tr>        
+                  <tr><th><b>Height:</b></th><th> 5.3px</th></tr>
+                  <tr><th><b>Weight:</b></th><th> Bold</th></tr>         
+                  <tr><th><b>Civil Status:</b></th><th> Part-time ninja, full time dreamer.</th></tr>
+                  <tr><th><b>Nationality:</b></th><th> Westerosi</th></tr>
+                  <tr><th><b>Religion:</b></th><th> Founder of the Order of the Snoozing Saints.</th></tr>
+                  <tr><th><b>Address:</b></th><th> Winterfell, The North, Westeros</th></tr>
+                </table>
+              </div>
+          </div>
+          <br>
+          <br>
+          <div class="details-container " style="text-align: left; font-size: 20px;">
+            <h3  style="color: black; text-align: center;">Educational Background</h3>
+            <br>
+            <table  style="font-size: 20px;">
+              <tr><th><b>SENIOR HIGH SCHOOL</b></th><th>San Rafael National High School
+                <br>San Rafael Tigaon Camarines Sur
+                <br>SY 2021-2023</th></tr>
+                <tr><th><b>JUNIOR HIGH SCHOOL</b></th><th> Tinawagan National High School
+                  <br>Tinawagan Tigaon Camarines Sur
+                  <br>SY 2017-2021</th></tr>        
+              <tr><th><b>ELEMENTARY SCHOOL</b></th><th> Tinawagan Elementary School
+                <br>Tinawagan Tigaon Camarines Sur
+                <br>SY 2011-2017</th></tr>    
+            </table>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="languages">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Languages</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title"> FRONT END</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 style="color: black;">HTML</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3 style="color: black;">CSS</h3>
+                  <p>Novice</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 style="color: black;">JavaScript</h3>
+                  <p>Novice</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">OTHERS</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 style="color: black;">Tagalog</h3>
+                  <p>Expert</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 style="color: black;">English</h3>
+                  <p>Not-Much</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 style="color: black;">Trashtalk</h3>
+                  <p>Batak</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Skill">
+      <p class="section__text__p1">My Professional</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Change language sir!</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Batak mag copy paste</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Kaya ng i-link sa HTML</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>No Skill</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Batak sa Turtle</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                  <p>Pinag-aaralan kasi pang hacker daw.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Gaming</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ML Player</h3>
+                  <p>1 Matches: 100% Winrate</p>
+                  <p>(ML 10 Load: Max RefreshRate : Ping 264)</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>LOL Player</h3>
+                  <p>Platinoob</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>DOTA</h3>
+                  <p>Undying lang kilala</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CODM Player</h3>
+                  <p>Cheat Active</p>
+                </div>
+              </article>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">                    
+        <br>
+        <div class="contact-info-container">
+          <form action="https://formspree.io/f/xdorrgbd" method="POST">
+            <h2 class="experience-sub-title" style="color: black;">Message</h2>
+            <div class="form-outline mb-4">    
+              <input type="text" id="name" class="form-control" name="Name" required/>
+              <label class="form-label" for="name">Name</label>
+            </div>
+            <div class="form-outline mb-4">
+              <input type="email" id="email" class="form-control" name="Email" required/>
+              <label class="form-label" for="email">Email address</label>
+            </div>
+            <div class="form-outline mb-4">
+              <textarea name="Message" class="form-control" style="resize: none;" id="message" rows="4" required></textarea>
+              <label class="form-label" for="message">Message</label>
+            </div>    
+            <button class="btn btn-info btn-block mb-4" type="submit">Send</button>
+          </form>
+        </div>
+    </section>
+    <footer>
+      
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
